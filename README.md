@@ -1,19 +1,45 @@
-# Calculo de distáncia e Ranking dos melhores Atletas
+```markdown
+# Athlete Jump Analysis
 
-Em uma competição de salto em distância cada atleta tem direito a cinco saltos. No final da série de saltos de cada atleta, o melhor e o pior resultados são eliminados.
-O seu resultado fica sendo a média dos três valores restantes.
-Você deve fazer um programa que receba o nome e as cinco distâncias alcançadas pelo atleta em seus saltos e depois informe a média dos saltos conforme a descrição acima informada (retirar o melhor e o pior salto e depois calcular a média).
-Faça uso de uma lista para armazenar os saltos. Os saltos são informados na ordem da execução, portanto não são ordenados. O programa deve ser encerrado quando não for informado o nome do atleta. A saída do programa deve ser conforme o exemplo abaixo:
+Este repositório contém o projeto **Athlete Jump Analysis**, focado na análise e comparação de saltos de diferentes atletas. O sistema calcula e compara os desempenhos de saltos com base nos dados fornecidos, ajudando a visualizar as diferenças de performance entre os atletas.
 
-**Atleta: Rodrigo Curvêllo**
+## Descrição do Projeto
 
-* Primeiro Salto: 6.5 m Segundo Salto: 6.1 m Terceiro Salto: 6.2 m Quarto Salto: 5.4 m Quinto Salto: 5.3 m
-* Melhor salto: 6.5 m Pior salto: 5.3 m Média dos demais saltos: 5.9 m
-* Resultado final: Rodrigo Curvêllo: 5.9 m
+O objetivo do **Athlete Jump Analysis** é processar dados de saltos de atletas, calcular estatísticas relevantes e fornecer uma comparação clara entre os participantes, permitindo insights sobre o desempenho.
 
+## Funcionalidades
 
+- Registro dos saltos dos atletas.
+- Cálculo de métricas de desempenho.
+- Comparação entre os saltos dos diferentes atletas.
 
+## Tecnologias Utilizadas
 
+- **Python**
+- **Pandas**: Para manipulação de dados.
+- **Matplotlib**: Para visualização dos resultados.
 
+## Estrutura do Repositório
 
-OBS: A solução final **não deve conter as funções built-in max, min.**
+- `jump_analysis.py`: Código principal para analisar e comparar os saltos.
+- `data/`: Conjuntos de dados de saltos dos atletas.
+- `docs/`: Documentação detalhada sobre o processo de análise.
+
+## Como Executar
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/Giovanacarmazio/Saltos-Atletas.git
+   ```
+
+2. Execute o script de análise:
+   ```bash
+   python jump_analysis.py
+   ```
+
+3. Visualize os resultados e comparações geradas pelo sistema.
+
+## Contribuições
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir *issues* ou enviar *pull requests* para melhorias.
+```
